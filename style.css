@@ -1,3 +1,73 @@
-h1 {
-    color:red;
-}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    background-color: #C90000;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 0;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+  }
+  
+  li a:hover {
+    background-color: #930505;
+    padding: 20px;
+  }
+  
+  .header {
+    background-image: url("https://assets.codepen.io/7596121/Stan_Lee_HERO_Img.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+    .container2 {
+        display: flex;
+      }
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 472px;
+    margin: 5px;
+    padding: 10px;
+     }
+  
+  .card2 {
+    background-color:#E59601;
+    width: 472px;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-family: 'Bebas Neue';
+    font-size: 120px;
+    line-height: .0em;
+    text-align: center;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 21px;
+    color: white;
+  }
+
+  
+  
+  
+  
