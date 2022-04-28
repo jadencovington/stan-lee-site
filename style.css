@@ -1,36 +1,108 @@
+* {
+  box-sizing: border-box;
+}
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Bebas Neue';
+  font-size: 120px;
+  line-height: .0em;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: 21px;
+  color: white;
+  line-height: 1.3;
+}
+
+.navigation {
+  background-color: #C90000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+
+li a:hover {
+  background-color: #930505;
+}
+
+.header {
+  background-image: url("https://assets.codepen.io/7596121/Stan_Lee_HERO_Img.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.container-sect {
+  margin: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.container-sect img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.early-photo-card {
+  flex-basis: 446px;
+}
+
+.text-card {
+  background-color: #E59601;
+  flex-basis: 640px;
+  padding: 25px;
+}
+
+.career-card {
+  background-color: #90A5B9;
+}
+
+
+/*
+
   
+
+
   nav{
-    background-color: #C90000;
   }
   
-  nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 15px 0;
-  }
   
-  li a {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-  }
+ 
   
-  li a:hover {
-    background-color: #930505;
-    padding: 20px;
-  }
   
-  .header {
-    background-image: url("https://assets.codepen.io/7596121/Stan_Lee_HERO_Img.jpg");
-    height: 90vh;
-    background-repeat: no-repeat;
-    position: relative;
-  }
+  
+
+  
+
 
     .container2 {
         display: flex;
@@ -54,18 +126,10 @@ body {
     padding: 10px;
   }
   
-  h1 {
-    font-family: 'Bebas Neue';
-    font-size: 120px;
-    line-height: .0em;
-    text-align: center;
-  }
   
-  body {
-    font-family: sans-serif;
-    font-size: 21px;
-    color: white;
-  }
+  
+
+  */
 
 
   
