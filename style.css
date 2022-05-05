@@ -15,6 +15,11 @@ h1 {
   color: white;
 }
 
+h2 {
+  color: black;
+  font-size: 50px;
+}
+
 p {
   font-size: 21px;
   color: white;
@@ -46,7 +51,7 @@ li a:hover {
 }
 
 .header {
-  background-image: url("https://assets.codepen.io/7596121/Stan_Lee_HERO_Img.jpg");
+  background-image: url("https://assets.codepen.io/7596121/SIZED_STAN_LEE_HERO.jpg");
   height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,10 +93,60 @@ li a:hover {
 
 .movie-card {
   background-color: #9A0303;
-  flex-basis: 550px;
+  flex-basis: 545px;
 }
 
+.comics {
+background-color: #FDF1A9;
+}
+
+.comic-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.rip-card {
+  background: url("https://assets.codepen.io/7596121/MEMORIUM_STAN_LEE.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.rip-btn {
+  margin-bottom: 15%;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  background-color: #9A0303;
+  box-shadow: -10px 10px black;
+}
+
+.rip-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.rip-btn:hover {
+  background-color: #E59601;
+}
+
+
 .logo {
+  color: white;
+}
+
+footer {
+  background: #C90000;
+  padding: 15px;
+  width: 1130px;
+}
+
+.footer p {
+  margin: 0;
   color: white;
 }
 
