@@ -86,6 +86,15 @@ li a:hover {
   background-color: #90A5B9;
 }
 
+.movie-card {
+  background-color: #9A0303;
+  flex-basis: 550px;
+}
+
+.logo {
+  color: white;
+}
+
 
 /*
 
